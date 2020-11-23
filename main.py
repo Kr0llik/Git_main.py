@@ -26,7 +26,6 @@ class Test(QMainWindow):
         for _ in range(randint(1, 15)):
             x, y = randint(50, 750), randint(50, 542)
             w, h = [randint(10, 50) for i in range(2)]
-            # создаем экземпляр QPainter, передавая холст (self.label.pixmap())
             painter = QPainter(self.label.pixmap())
             pen = QPen()
             pen.setWidth(5)
