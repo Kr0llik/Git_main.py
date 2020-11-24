@@ -21,6 +21,7 @@ class MainWindow(QMainWindow):
         layout = QGridLayout(self.centralWidget())
         layout.addWidget(self.pushButton, 0, 0, alignment=Qt.AlignCenter)
         layout.addWidget(self.label, 1, 0)
+        self.initUI()
 
 
 class Draw(MainWindow):
